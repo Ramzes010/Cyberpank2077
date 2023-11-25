@@ -2,6 +2,7 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
+    margin: 0;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -14,14 +15,13 @@ p {
 
 
 body {
-    font-family: 'Gilroy', cursive; 
-    margin: 0;
+
 }
 
 .container {
     padding: 0 10px;
     width: 100%;
-    max-width: 1050px;
+    max-width: 1305px;
     margin: 0 auto;    
     /* Указал стандартную ширину и позицию всех блоков на сайте */
 }
@@ -34,6 +34,61 @@ body {
 
 .page{
     width: 100%;
+    height: 742px;
     position: relative;
     overflow: hidden;
+    background-image: url(img/backgrounds/main-section-1.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
+
+.header-position{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.icon{
+    margin-left: 35px;
+}
+
+.section_1{
+    transform: scale(0.77);
+    overflow: hidden;
+    margin: 0;
+}
+
+.forum{
+    background-color: #F8F200;
+    display: inline-block;
+}
+
+.forum a{
+    background-color: #000;
+    color: #F8F200;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 40px;
+    padding: 19px 50px;
+}
+
+.forum-position{
+    margin: 70px;
+}
+
+.title{
+    color: #000;
+    font-family: Archangelsk;
+    font-size: 62px;
+    font-weight: 400;
+}
+
+/* Webkit */
+
+::-webkit-scrollbar {
+    width: 0;
+  }
